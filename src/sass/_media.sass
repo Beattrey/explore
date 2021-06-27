@@ -1,0 +1,179 @@
+@media  (min-width: 1201px)
+    .header
+        background: url(../img/header.jpg) no-repeat center
+@media  (max-width: 1200px)
+    .header
+        background: url(../img/header.jpg) no-repeat 75% / 100%
+    .way
+        &__img
+            width: 600px
+    .featured
+        &__img
+            width: 215px
+    .guides
+        &__img
+            width: 556px
+        &__title
+            margin-top: 105px
+    .stories
+        &__img
+            width: 215px
+        &__items
+            top: 215px
+@media  (max-width: 991px)
+    .header
+        background: url(../img/header.jpg) no-repeat 100%/78%
+    .button
+        width: 120px
+    .way
+        &__img
+            width: 410px
+        &__title
+            margin-top: 0
+            line-height: 35px
+        &__subtitle
+            line-height: 22px
+        &__button
+            margin-top: 20px
+            height: 40px
+    .featured
+        &__img
+            width: 155px
+    .guides
+        &__img
+            width: 423px
+            margin-top: 180px
+        &__title
+            line-height: 45px
+        &__subtitle
+            line-height: 23px
+    .testimonials
+        &__review
+            margin-top: 80px
+            &_text
+                margin-top: 20px
+                font-size: 20px
+            &_autor
+                margin-top: 23px
+        &__img
+            width: 275px
+            margin-top: 75px
+    .stories
+        &__img
+            width: 155px
+        &__items
+            top: 150px
+        &__subtitle
+            font-size: 18px
+            line-height: 22px
+        &__desc
+            line-height: 23px
+            font-size: 13px
+    .footer
+        &__logo
+            margin-top: 58px
+        &__title
+            margin-top: 50px
+        &__subtitle
+            font-size: 13px
+            line-height: 28px
+        &__desc
+            font-size: 13px
+            line-height: 28px
+        &__copyright
+            font-size: 13px
+        &__line
+            margin-top: 45px
+                
+@media  (max-width: 767px)
+    .promo
+        &__menu
+            position: fixed
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            top: 0
+            right: -100%
+            width: 55%
+            height: 100vh
+            padding: 15px 10px
+            background-color: #ffffff
+            transition: 0.6s all
+            &_active
+                right: 0
+            &_item
+                padding-right: 0
+                border: 0
+            &_link
+                font-size: 30px
+                line-height: 45px
+                &:hover
+                    font-size: 30px
+                    
+    .hamburger
+        display: block
+        position: absolute
+        top: 45px
+        right: 25px
+        transform: translateY(-50%)
+        width: 25px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #000
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .button
+        width: 140px
+        height: 35px
+        margin-top: 20px
+        &_second
+            margin-left: 0px
+    .way
+        margin-top: 150px
+        &__title
+            margin-top: 35px
+    .featured
+        margin-top: 250px
+        &__header
+            margin-bottom: 10px
+        &__card
+            margin-top: 50px
+        &__img
+            width: 240px
+    .guides
+        margin-top: 150px
+        &__img
+            width: 436px
+            margin-top: 70px
+            margin-left: 40px
+    .testimonials
+        &__review
+            margin-top: 50px
+        &__img
+            width: 100%
+        &__photo
+            width: 384px
+    .stories
+        &__img
+            width: 235px
+        &__items
+            top: 215px
+        &__card
+            margin-top: 20px
+            &_second
+                margin-top: 110px
+
+
+// @media  (max-width: 575px)
